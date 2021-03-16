@@ -20,6 +20,11 @@ var age2 = 15;
 var trueage2= addition(age2);
 alert(trueage2);//"25"
 
+function test(){
+	a = 123;
+	var b = 456;
+	if(a == 123) var c = 789;
+}
 
 document.getElementById("byid").innerHTML = "我來自id";
 document.getElementById("byid").style.color = "blue";
