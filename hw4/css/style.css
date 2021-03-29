@@ -1,0 +1,292 @@
+/*Global Style*/
+html {
+	background-color: #EDF2C5;
+	box-sizing: border-box; 
+}
+
+*,*:before,*:after {
+	box-sizing: inherit;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body .container {
+	max-width: 940px;
+	max-height: 1260px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EDF2C5;
+}
+
+.header1andsmallpics {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+/*Header Style*/
+header .header1 h1 {
+	margin-bottom: 8px;
+	font-family: Arial Black;
+	font-size: 44px 36px;
+	color: #778A50;
+}
+
+.smallpics {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#fb {
+	padding-right: 10px;
+	border: 0;
+	margin-bottom: 17px;
+	white-space: nowrap;
+}
+
+#ig {
+	padding-right: 3px;
+	border: 0;
+	margin-bottom: 17px;
+	white-space: nowrap;
+}
+
+.line-topright {
+	color: #778A50;
+	margin-bottom: 21px;
+}
+
+.box-a {
+  margin-left: 3px;
+  padding: 2px;
+  background-color: #EDF2C5;
+  border: 1px solid #778A50;
+  border-radius: 3px;
+  font-family: Arial Black;
+  font-size: 14px;
+  color: #778A50;
+  margin-bottom: 17px;
+  /*box-sizing: border-box;*/
+}
+
+.box-b {
+  margin-left: 10px;
+  padding: 2px;
+  background-color: #EDF2C5;
+  border: 1px solid #778A50;
+  border-radius: 3px;
+  font-family: Arial Black;
+  font-size: 14px;
+  color: #778A50;
+  margin-bottom: 17px;
+ /* box-sizing: border-box;*/
+}
+
+
+header .nav {
+	margin-top: 0;
+	margin: 0;
+	padding: 0;
+}
+
+header .nav-list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-list-item1 {
+	list-style: none;
+	padding: 16px 30px 16px 30px;
+	background-color: #778A50;
+}
+
+.nav-list-item2 {
+	list-style: none;
+	padding: 16px 30px 16px 30px;
+	background-color: #778A50;
+}
+
+.nav-list-item3 {
+	list-style: none;
+	padding: 16px 317px 16px 30px;
+	background-color: #778A50;
+}
+
+.nav-list-item-link1 {
+	display: block;
+	color: #EDF2C5;
+	font-family: Arial Black;
+	font-size: 16px;
+	background-color: #778A50;
+	text-decoration: none;
+}
+
+.nav-list-item-link {
+	display: block;
+    white-space: nowrap;
+    color: #EDF2C5;
+    font-family: Arial Black;
+    font-size: 16px;
+    background-color: #778A50;
+    text-decoration: none;
+}
+
+
+/*Content Style*/
+.bannerimg {
+    display: flex;
+    margin-top: 20px;
+    width: 940px;
+    height: 448px;
+}
+
+.content {
+	margin: 0 auto;
+	width: 940px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.leftcontent {
+	
+}
+
+.lefthead {
+	list-style: none;
+	width: 452px;
+	padding: 15px 322px 15px 30px;
+	margin-top: 30px;
+	margin-right: 0;
+	background-color: #778A50;
+}
+
+.Vegetables {
+	display: block;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	color: #EDF2C5;
+	font-family: Arial Black;
+	font-size: 16px;
+	background-color: #778A50;
+	text-decoration: none;
+}
+
+.leftimg {
+	padding-top: 15px;
+}
+
+#pepper {
+	padding-right: 12px;
+	border: 0;
+	margin: 0;
+	white-space: nowrap;
+}
+
+#carrot {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	white-space: nowrap;
+}
+
+#corn {
+	padding-left: 12px;
+	border: 0;
+	margin: 0;
+	white-space: nowrap;
+}
+
+.rightcontent {
+}
+
+.righthead {
+    list-style: none;
+   /* float: right;*/
+	width: 452px;
+	padding: 17px 322px 16px 30px;
+	margin-top: 30px;
+	margin-bottom: 0;
+	margin-right: 0;
+	background-color: #778A50;
+	border: 0;
+}
+
+.righthead p {
+	background-color: #778A50;
+	border: 0;
+	color: #EDF2C5;
+	font-family: Arial Black;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 0;
+}
+
+.rightbox {
+  background-color: #F7FBDA;
+  padding: 16px 15px;
+  border: 0;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  width: 452px;
+  height: 140px;
+  box-sizing: border-box;
+}
+
+.right-text {
+	font-size: 12px;
+	font-family: Arial;
+	color: #7D7D7D;
+	line-height: 1.33;
+}
+
+.right-text p {
+	margin: 0;
+}
+
+.line {
+    width: 414px;
+    height: 1px;
+    border-top: solid #7D7D7D 1px;
+    margin: 12px 0px;
+}
+
+.contactinfo {
+	font-size: 12px;
+	font-family: Arial;
+	color: #7D7D7D;
+	line-height: 1.83;
+}
+
+.contactinfo p {
+	margin: 0;
+}
+
+/*Footer*/
+#footer{
+	/*clear: left;*/
+	text-align: center;
+	font-family: Arial;
+	font-size: 12px;
+	color: #EDF2C5;
+	background-color: #778A50;
+	padding-top: 24px;
+	padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
