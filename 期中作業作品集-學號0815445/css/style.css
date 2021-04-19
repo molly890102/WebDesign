@@ -1,0 +1,172 @@
+html {
+	background-color: #A9FEEB;
+	box-sizing: border-box; 
+}
+
+*,*:before,*:after {
+	box-sizing: inherit;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body .about {
+	/*max-width: 1040px;*/
+	/*max-height:;*/
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #A9FEEB;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+
+}
+.slider {
+	margin-top: 76px;
+}
+.slider .container-fluid {
+	padding:0!important;
+}
+
+.about {
+	padding:90px 0;
+/*	background:linear-gradient(#ffffff,#F0E5DE); */
+}
+
+.about img {
+	box-shadow:2px 2px 4px gray;
+	width: 100%;
+}
+.title {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 18px;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+.productandservice {
+	background-color: #D2FEE6;
+	padding-bottom:70px;
+}
+.productandservice .section {
+	background-color: #FEFAC7;
+	border: 5px outset #FFE367; 
+	padding: 16px 10px;
+	margin-bottom: 10px;
+}
+.productandservice img {
+	width:100%;
+	margin-bottom:16px;
+}
+
+.productandservice img:hover {
+	opacity: 0.6;
+}
+.ability-name {
+	padding: 10px;
+}
+
+/*聯絡表單*/
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-size: cover;
+	background-image: url(../img/pic00000.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#ffffff;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 3px inset #ABB2B9;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 3px inset #ABB2B9;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7px 0;
+}
+
+input[type=submit] {
+  background-color: #2EC041;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
+
+/*footer*/
+footer {
+	background-color: #4BE4A7;
+	padding:20px 0; 
+}
+
+.footer p {
+	line-height: 39px;
+}
+
+#exampleModal img{
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
