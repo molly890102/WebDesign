@@ -1,5 +1,5 @@
 html {
-	background-color: #A9FEEB;
+	background-color: #FFF9CA;
 	box-sizing: border-box; 
 }
 
@@ -12,33 +12,65 @@ body {
 	margin: 0;
 }
 
+
 body .about {
 	/*max-width: 1040px;*/
 	/*max-height:;*/
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #A9FEEB;
+	background-color: #FFF9CA;
 }
 
 .navbar-expand-lg {
 	padding: 0;
 }
 
+#bannerpic {
+	filter: blur(2px);
+	height: 80vh;
+	width: 100%;
+	object-fit: cover;
+	margin-top: 56px;
+}
+
+#slogan {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 200px;
+  left: 15%;
+  width: 70%;
+}
+
+.slogan1{
+	color: white;
+	text-shadow: 2px 2px 2px gray;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 800;
+}
+
+.slogan2{
+	color: white;
+	font-size: 46px;
+		text-align: center;
+	text-shadow: 2px 2px 2px gray;
+	font-weight: normal;
+}
+
 @media (min-width: 768px) {
 /*nav選單*/
+#bannerpic {
+	width: 100%;
+	height: auto;
+
+}
+
 	.navbar{
 	padding-left:50px!important;
 	padding-right:50px!important; 
 }
-
 }
-.slider {
-	margin-top: 76px;
-}
-.slider .container-fluid {
-	padding:0!important;
-}
-
 .about {
 	padding:90px 0;
 /*	background:linear-gradient(#ffffff,#F0E5DE); */
@@ -74,13 +106,14 @@ body .about {
 }
 
 .productandservice {
-	background-color: #D2FEE6;
+	background-color: #FFF0A0;
 	padding-bottom:70px;
 }
 .productandservice .section {
-	background-color: #FEFAC7;
-	border: 5px outset #FFE367; 
+	background-color: #FFFFFF;
 	padding: 16px 10px;
+	border: 1px solid #ABB2B9;
+	box-shadow:1px 1px 1.5px gray;
 	margin-bottom: 10px;
 }
 .productandservice img {
@@ -95,12 +128,22 @@ body .about {
 	padding: 10px;
 }
 
+.feedbacksfromuser {
+	background-color: #FFF9CA;
+	/*padding-bottom:70px;*/
+}
+
+.feedbacksfromuser img {
+	box-shadow:2px 2px 4px gray;
+	width: 100%;
+}
+
 /*聯絡表單*/
 .contact {
 	height:750px;
 	padding-top: 100px;
 	background-size: cover;
-	background-image: url(../img/pic00000.jpg);
+	background-image: url(../img/pic5.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: top center;
@@ -108,6 +151,11 @@ body .about {
 
 .contact .title {
 	color:#ffffff;
+	text-shadow: 2px 2px 2px gray;
+}
+
+.contact .title_line {
+	color: #FFFFFF;
 }
 
 .contact .form {
@@ -155,7 +203,7 @@ input[type=submit]:hover {
 
 /*footer*/
 footer {
-	background-color: #4BE4A7;
+	background-color: #FFC032;
 	padding:20px 0; 
 }
 
@@ -167,10 +215,3 @@ footer {
 	width: 100%;
 }
 
-@media (min-width: 768px) {
-/*nav選單*/
-	.navbar{
-	padding-left:50px!important;
-	padding-right:50px!important; 
-}
-}
